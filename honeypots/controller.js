@@ -12,6 +12,8 @@ const signup = (req, res) => {
     console.log(req.body.name);
     res.status(200).json(req.body.name);
   }
+  // LOGGER
+  // WHITELIST
 };
 
 module.exports = { signup };
